@@ -1,6 +1,15 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'Hi, my name is Peter!',
+    test: 'Pita',
   },
-  plugins: ['gatsby-plugin-react-helmet'],
-}
+  plugins: [
+  	{
+  		resolve: `gatsby-plugin-typography`,
+  		options: {
+  			pathToConfigModule: `src/utils/typography.js`,
+  		},
+  	},
+  	'gatsby-plugin-react-helmet',
+  ],
+};
