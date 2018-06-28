@@ -1,12 +1,11 @@
 /* TODO: modularize fonts and global CSS */
-@import 'https://fonts.googleapis.com/css?family=Lalezar';
 @import 'https://fonts.googleapis.com/css?family=Oswald';
 
 body, html { 
-   overflow:hidden;
+   /*overflow:hidden;*/
    width:100vw; 
    height:100vh;
-   font-family: 'Lalezar', cursive;
+   margin: 0;
 }
 
 #welcome{
@@ -62,6 +61,8 @@ body, html {
 
 @keyframes backAn {
    0%    { background-position:0% 100%; }
+   25%   { background-position:50% 50%; }
    50%   { background-position:100% 100%; }
+   75%   { background-position:50% 50%; }
    100%  { background-position:0% 100%; }
 }

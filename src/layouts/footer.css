@@ -1,0 +1,39 @@
+@import 'https://fonts.googleapis.com/css?family=Oswald:200,300,400';
+
+#footer {
+	/*border: 1px solid blue;*/
+	background: white;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 200;
+  margin-top: 1.5em;
+  opacity: 0.75;
+  padding: 3em 0 2em;
+	text-align: center;
+}
+
+#footer h1 {
+  color: black;
+  /*font-family: 'Oswald', sans-serif;*/
+	font-weight: 300;
+  font-size: 3em;
+	margin: 0;
+}
+
+#footer .social-icons {
+  display: inline-block;
+	list-style: none;
+  overflow: hidden;
+  padding: 0;
+}
+
+#footer .social-icons li {
+	float: left;
+	margin: 0 0.5em;
+	padding: 0;
+}
+
+#footer .footer-sub {
+	color: #a8a8a8;
+	font-size: .7em;
+	margin-top: 3em;
+}

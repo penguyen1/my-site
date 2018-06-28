@@ -9,7 +9,12 @@ export default () => (
   <div>
     <img id='bg_overlay' src={bg} />
     <Header siteTitle={'testing123'} />
-    Hi, my name is Peter
+    <section id='first'>
+      About me: personal info
+    </section>
+    <section id='second'>
+      About me: professional and achievements
+    </section>
     <Footer />
   </div>
 );
