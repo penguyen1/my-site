@@ -1,25 +1,15 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import Header from '../components/header'
-// import Footer from '../components/footer'
+import Footer from '../components/footer'
+import '../layouts/home.css'
+import bg from '../images/bg.jpg'
 
 export default () => (
-  <div style={{ margin: '3rem auto', maxWidth: 600 }}>
-    <div>Add Header Navigation here</div>
-    <h1>Hi, my name is Peter Nguyen</h1>
-    <div>
-      <p>
-        blah blah blah write something about Peter
-      </p>
-      <blockquote>
-        <p>
-          Cool quote here?
-          <em>
-            by whom?
-          </em>
-        </p>
-      </blockquote>
-    </div>
-    <div>Add Footer here</div>
+  <div>
+    <img id='bg_overlay' src={bg} />
+    <Header siteTitle={'testing123'} />
+    Hi, my name is Peter
+    <Footer />
   </div>
 );
