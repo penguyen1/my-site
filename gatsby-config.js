@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: 'Hi, my name is Peter!',
-    test: 'Pita',
+    active: 'Hi, I like your face.',
+    inactive: 'Nooo, come back!',
   },
   plugins: [
   	{

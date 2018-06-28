@@ -1,10 +1,13 @@
 import React from 'react'
+import Link from 'gatsby-link'
+import '../layouts/404.css'
 
-const NotFoundPage = () => (
-  <div>
-    <h1>NOT FOUND</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+export default () => (
+  <div id='broken404'>
+  	<div id='img404'>
+	  	<Link to='/home'>
+				<div id='balloon404'></div>
+	  	</Link>
+  	</div>
   </div>
-)
-
-export default NotFoundPage
+);

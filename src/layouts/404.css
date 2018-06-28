@@ -1,0 +1,27 @@
+#broken404{
+   background-color:#cdc8c4; 
+   margin:0; 
+   padding:0; 
+   height:100vh;
+   width:100vw; 
+}
+
+#broken404 #img404{
+   /* img credit: https://dribbble.com/shots/2597126-404-Got-Lost */
+   background: url(../images/404.jpg) no-repeat center center fixed; 
+   -webkit-background-size: 100% 100%;
+   -moz-background-size: 100% 100%;
+   -o-background-size: 100% 100%;
+   background-size: 100% 100%;
+   height:100%;
+   width:100%; 
+}
+
+#broken404 #balloon404{
+   /*border: 1px solid red;*/
+   position:absolute; 
+   left: 56%;
+   top: 16%;
+   height: 19%;
+   width: 12%;
+}
