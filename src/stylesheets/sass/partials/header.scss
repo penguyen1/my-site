@@ -8,26 +8,29 @@
   height: 100vh;
   position: relative;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 #header-contents{
 	position: absolute;
-  top: 10%;
-  left: 19%;
-  height: 80%;
+  top: 15%;
+  left: 20%;
+  height: 75%;
   width: 65%;
   border: 1px solid blue;
 
 	.header-pic {
 		border-radius: 10em;
-		height: 15em;
-		width: 14em;
-		// margin: 3em 0 0;
+		height: 12em;
+		width: 11em;
 	}
 
 	h1 {
 		font-weight: $regular;
-	  font-size: 3.5em;
+	  font-size: 3em;
 		margin: .5em 0 0;
 	}
 
@@ -48,7 +51,10 @@
 	}
 
 	ul.header-list {
-	  display: inline-block;
+	  display: flex;
+	  flex-direction: row;
+	  flex-wrap: wrap;
+	  justify-content: center;
 		list-style: none;
 	  overflow: hidden;
 	  padding: 0;
@@ -67,53 +73,20 @@
 // 30em === 480px
 @media only screen and (min-width: 30em){
 	#header-contents{
-		position: absolute;
-	  top: 10%;
-	  left: 25%;
-	  height: 75%;
-	  width: 50%;
+	  border: 1px solid green;
 
 		.header-pic {
-			border-radius: 10em;
-			height: 15em;
-			width: 14em;
-			// margin: 3em 0 0;
+			height: 13em;
+			width: 12em;
 		}
 
 		h1 {
-			font-weight: $regular;
-		  font-size: 3.5em;
 			margin: .5em 0 0;
 		}
 
 		h5 {
-			font-weight: $regular;
-		  font-size: 1.4em;
-			margin: 0;
-			
 			&:after {
-				background: $purple3;
-			  content: '';
-			  display: block;
-			  margin: 1.3em auto .7em;
-			  position: relative;
-			  height: 2px;
-			  width: 5em;
-			}
-		}
-
-		ul.header-list {
-		  display: inline-block;
-			list-style: none;
-		  overflow: hidden;
-		  padding: 0;
-			
-			li {
-			  font-weight: $regular;
-			  font-size: 1.1em;
-				float: left;
-				margin: 0 0.5em;
-				padding: 0;
+			  margin: .9em auto;
 			}
 		}
 	}
@@ -122,53 +95,16 @@
 // 48em === 768px
 @media only screen and (min-width: 48em){
 	#header-contents{
-		position: absolute;
-	  top: 10%;
-	  left: 25%;
-	  height: 75%;
-	  width: 50%;
+	  border: 1px solid orange;
 
 		.header-pic {
-			border-radius: 10em;
-			height: 15em;
-			width: 14em;
-			// margin: 3em 0 0;
-		}
-
-		h1 {
-			font-weight: $regular;
-		  font-size: 3.5em;
-			margin: .5em 0 0;
+			height: 14em;
+			width: 13em;
 		}
 
 		h5 {
-			font-weight: $regular;
-		  font-size: 1.4em;
-			margin: 0;
-			
 			&:after {
-				background: $purple3;
-			  content: '';
-			  display: block;
-			  margin: 1.3em auto .7em;
-			  position: relative;
-			  height: 2px;
-			  width: 5em;
-			}
-		}
-
-		ul.header-list {
-		  display: inline-block;
-			list-style: none;
-		  overflow: hidden;
-		  padding: 0;
-			
-			li {
-			  font-weight: $regular;
-			  font-size: 1.1em;
-				float: left;
-				margin: 0 0.5em;
-				padding: 0;
+			  margin: 1.1em auto;
 			}
 		}
 	}
@@ -177,53 +113,20 @@
 // 64em === 1024px
 @media only screen and (min-width: 64em){
 	#header-contents{
-		position: absolute;
-	  top: 10%;
-	  left: 25%;
-	  height: 80%;
-	  width: 50%;
+		border: 1px solid red;
 
 		.header-pic {
-			border-radius: 10em;
 			height: 15em;
 			width: 14em;
 		}
 
 		h1 {
-			font-weight: $regular;
 		  font-size: 3.5em;
-			margin: .5em 0 0;
 		}
 
 		h5 {
-			font-weight: $regular;
-		  font-size: 1.4em;
-			margin: 0;
-			
 			&:after {
-				background: $purple3;
-			  content: '';
-			  display: block;
-			  margin: 1.3em auto .7em;
-			  position: relative;
-			  height: 2px;
-			  width: 5em;
-			}
-		}
-
-		ul.header-list {
-		  display: inline-block;
-			list-style: none;
-		  overflow: hidden;
-		  padding: 0;
-		  margin: 0;
-			
-			li {
-			  font-weight: $regular;
-			  font-size: 1.1em;
-				float: left;
-				margin: 0 0.5em;
-				padding: 0;
+			  margin: 1.3em auto;
 			}
 		}
 	}
