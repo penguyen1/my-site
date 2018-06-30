@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 import Header from '../components/header'
 import Footer from '../components/footer'
-import '../layouts/home.css'
+import '../stylesheets/css/home.css'
 import bg from '../images/bg.jpg'
 
 export default () => (

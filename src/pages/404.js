@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import '../layouts/404.css'
+
+import '../stylesheets/sass/partials/404.scss'
 
 export default () => (
   <div id='broken404'>

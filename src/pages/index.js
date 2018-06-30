@@ -1,7 +1,8 @@
 import React from 'react'
 import Link from 'gatsby-link'
+
 import pita from '../images/pita.jpg'
-import '../layouts/welcome.css'
+import '../stylesheets/sass/partials/welcome.scss'
 
 export default () => (
   <div id='welcome'>

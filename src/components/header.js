@@ -1,8 +1,9 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import { SocialIcon } from 'react-social-icons'
-import '../layouts/header.css'
+
 import me from '../images/meh.jpg'
+import '../stylesheets/sass/partials/header.scss'
 
 export default () => (
   <div id='header'>
@@ -11,10 +12,10 @@ export default () => (
     <h5>New York | Boston</h5>
     <ul className='header-list'>
       <li>Software Developer</li>
-      <li>Basketball-er</li>
+      <li>Athlete</li>
       <li>Foodie</li>
       <li>Sneakerhead</li>
-      <li>Professional Cuddler</li>
+      <li>Coffee Lover</li>
     </ul>
   </div>
 );

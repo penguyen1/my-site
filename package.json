@@ -7,7 +7,9 @@
     "gatsby": "^1.9.273",
     "gatsby-link": "^1.6.40",
     "gatsby-plugin-react-helmet": "^2.0.10",
+    "gatsby-plugin-sass": "^1.0.26",
     "gatsby-plugin-typography": "^1.7.19",
+    "purecss": "^1.0.0",
     "react-helmet": "^5.2.0",
     "react-social-icons": "^3.0.0"
   },

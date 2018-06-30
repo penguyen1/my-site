@@ -1,8 +1,8 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import { SocialIcon } from 'react-social-icons'
-import '../layouts/footer.css'
 
+import '../stylesheets/sass/partials/footer.scss'
 const iconSize = { height:35, width:35 }
 
 export default () => (
