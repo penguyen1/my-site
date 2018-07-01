@@ -19,7 +19,7 @@
    }
    
    #balloon404{
-      // border: 1px solid red;
+      // @include border(#ee6a50);
       position:absolute; 
       left: 56%;
       top: 16%;
@@ -28,3 +28,11 @@
    }
 }
 
+// 30em === 480px
+@media only screen and (min-width: 30em){}
+
+// 48em === 768px
+@media only screen and (min-width: 48em){}
+
+// 64em === 1024px
+@media only screen and (min-width: 64em){}

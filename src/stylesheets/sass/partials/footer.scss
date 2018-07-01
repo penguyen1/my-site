@@ -4,7 +4,7 @@
 	background: $white;
 	font-family: $oswald;
 	font-weight: $light;
-  margin-top: 1.5em;
+  margin-top: 10em;
   opacity: 0.75;
   padding: 3em 0 2em;
 	text-align: center;
@@ -35,3 +35,12 @@
 		margin-top: 3em;
 	}
 }
+
+// 30em === 480px
+// @media only screen and (min-width: 30em){}
+
+// 48em === 768px
+// @media only screen and (min-width: 48em){}
+
+// 64em === 1024px
+// @media only screen and (min-width: 64em){}
